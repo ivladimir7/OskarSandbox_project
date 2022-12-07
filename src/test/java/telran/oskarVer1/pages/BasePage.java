@@ -1,5 +1,6 @@
 package telran.oskarVer1.pages;
 
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -38,6 +39,19 @@ public class BasePage {
     public void clickWithAction(WebElement element) {
         Actions actions = new Actions(driver);
         actions.moveToElement(element).perform();
+        element.click();
+    }
+    public void typeWithJSExecutor(WebElement element, String text, int x, int y) {
+        if (text != null) {
+            clickWithJSExecutor(element, x, y);
+            element.clear();
+            element.sendKeys(text);
+        }
+    }
+
+    public void clickWithJSExecutor(WebElement element, int x, int y) {
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollBy(" + x + "," + y + ")");
         element.click();
     }
 }

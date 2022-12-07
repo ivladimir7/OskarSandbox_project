@@ -1,8 +1,9 @@
-package telran.oskarVer1.pages;
+package telran.oskarVer1.pages.user;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import telran.oskarVer1.pages.BasePage;
 
 public class LoginPage extends BasePage {
     public LoginPage(WebDriver driver){
@@ -21,7 +22,7 @@ public class LoginPage extends BasePage {
     @FindBy(xpath= "//button[contains(text(),'Log In')]")
     WebElement LoginSubmit;
 
-    public AccountPage login(String email,String password) {
+    public AccountPage login(String email, String password) {
         click(LoginOrRegister);
         type(Email_address,email);
         type(Password,password);
