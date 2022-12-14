@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="telran.oskarLastVersion.tests.RegistrationNegativeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-12-14T21:52:32" hostname="iMac-ipaparazzi" time="0.841">
+  <properties/>
+  <testcase name="registrationNegativeWIthInvalidPassword" classname="telran.oskarLastVersion.tests.RegistrationNegativeTest" time="0.841"/>
+  <system-out><![CDATA[Oops! We found some errors - please check the error messages below and try again
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 38318
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1671054747.744][WARNING]: This version of ChromeDriver has not been tested with Chrome version 108.
+дек. 14, 2022 10:52:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

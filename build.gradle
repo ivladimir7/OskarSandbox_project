@@ -19,6 +19,8 @@ dependencies {
     implementation 'org.seleniumhq.selenium:selenium-java:3.141.59'
     implementation 'org.testng:testng:7.6.0'
     implementation 'ch.qos.logback:logback-classic:1.2.11'
+    implementation 'ru.yandex.qatools.ashot:ashot:1.5.4'
+
 }
 
 test {

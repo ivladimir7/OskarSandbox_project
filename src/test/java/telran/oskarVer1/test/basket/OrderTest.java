@@ -1,15 +1,14 @@
 package telran.oskarVer1.test.basket;
 
+import com.telran.data.AddressData;
+import com.telran.data.UserData;
+import com.telran.pages.basket.*;
+import com.telran.pages.product.AllProductPage;
+import com.telran.pages.product.HomePage;
+import com.telran.pages.user.LoginAndRegistrationPage;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import telran.oskarVer1.data.AddressData;
-import telran.oskarVer1.data.UserData;
-import telran.oskarVer1.pages.user.AccountPage;
-import telran.oskarVer1.pages.product.AllProductPage;
-import telran.oskarVer1.pages.product.HomePage;
-import telran.oskarVer1.pages.user.LoginPage;
-import telran.oskarVer1.pages.basket.*;
 import telran.oskarVer1.test.TestBase;
 
 public class OrderTest extends TestBase {
@@ -17,7 +16,7 @@ public class OrderTest extends TestBase {
     public void ensurePrecondition() {
         new HomePage(driver).selectLanguage("British English");
         new HomePage(driver).clickOnLoginButton();
-        new LoginPage(driver).login(UserData.EMAIL,UserData.PASSWORD);;
+        new LoginAndRegistrationPage(driver).login(UserData.EMAIL,UserData.PASSWORD);;
 
     }
     @Test
