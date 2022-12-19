@@ -20,7 +20,7 @@ public class HomePage extends BasePage {
     @FindBy(xpath = "//*[.=' Account']")
     WebElement myAccount;
 
-    @FindBy(xpath = "//body/nav[@id='top_page']/div[1]/div[1]/ul[1]/li[1]/a[1]/i[1]")
+    @FindBy(css = ".nav-link.mt-2.mt-lg-0")
     WebElement myAccountLastVer;
 
     @FindBy(xpath = "//*[@name = 'language']")
@@ -55,14 +55,15 @@ public class HomePage extends BasePage {
         return this;
     }
 
-    public void MyAccount(WebDriver driver) {
+    public AccountPage clickOnMyAccount() {
 
         click(myAccount);
+        return new AccountPage(driver);
     }
 
-    public void MyAccountLastVe(WebDriver driver) {
-
-        click(myAccount);
+    public AccountPage clickOnMyAccountLastVe() {
+        click(myAccountLastVer);
+        return new AccountPage(driver);
     }
 
     public HomePage logOut() {

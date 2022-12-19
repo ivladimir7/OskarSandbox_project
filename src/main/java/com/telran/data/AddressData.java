@@ -6,4 +6,10 @@ public class AddressData {
     public static final String FIRST_LINE_OF_ADDRESS = "Stuttgarter STR.9";
     public static final String CITY = "Metzingen";
     public static final String ZIP_CODE = "72555";
+    public static final String FIRST_NAME1 = "Tom";
+    public static final String LAST_NAME1 = "Sorer";
+    public static final String FIRST_LINE_OF_ADDRESS1 = "New Str.7";
+    public static final String CITY1 = "Reutlingen";
+    public static final String ZIP_CODE1 = "72760";
 }
+

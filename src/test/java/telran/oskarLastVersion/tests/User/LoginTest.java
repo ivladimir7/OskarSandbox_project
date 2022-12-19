@@ -1,4 +1,4 @@
-package telran.oskarLastVersion.tests;
+package telran.oskarLastVersion.tests.User;
 
 import com.telran.data.UserData;
 import com.telran.pages.product.HomePage;
@@ -7,7 +7,7 @@ import com.telran.pages.user.LoginAndRegistrationPage;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-
+import telran.oskarLastVersion.tests.TestBase1;
 
 
 public class LoginTest extends TestBase1 {
@@ -20,8 +20,8 @@ public class LoginTest extends TestBase1 {
 
     @Test
     public void LoginPositiveTest() {
-        new LoginAndRegistrationPage(driver).login(UserData.EMAIL,UserData.PASSWORDNEWACC);
-        new HomePage(driver).MyAccount(driver);
+        new LoginAndRegistrationPage(driver).login(UserData.EMAIL,UserData.PASSWORDNewACC);
+        new HomePage(driver).clickOnMyAccountLastVe();
         new AccountPage(driver).verifyUserName(UserData.EMAIL);
     }
 

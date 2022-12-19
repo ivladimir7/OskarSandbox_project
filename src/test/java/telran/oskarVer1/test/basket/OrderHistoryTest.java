@@ -16,13 +16,13 @@ public class OrderHistoryTest extends TestBase {
         new HomePage(driver).selectLanguage("British English");
         new HomePage(driver).clickOnLoginButton();
         new LoginAndRegistrationPage(driver).login(UserData.EMAIL, UserData.PASSWORD);
-        ;
+
 
     }
 
     @Test
     public void CheckOrderHistory() {
-        new HomePage(driver).MyAccount(driver);
+        new HomePage(driver).clickOnMyAccount();
         new AccountPage(driver).clickOnOrderHistory();
         new OrderHistoryPage(driver).OrderNumberFind(String.valueOf(627270)).clickOnTheFilterResults();
         Assert.assertTrue(new OrderHistoryPage(driver).OrderAssertNumber().contains("Order #627270"));

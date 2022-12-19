@@ -1,4 +1,4 @@
-package telran.oskarLastVersion.tests;
+package telran.oskarLastVersion.tests.User;
 
 import com.telran.data.UserData;
 import com.telran.pages.product.HomePage;
@@ -8,8 +8,9 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import telran.oskarLastVersion.tests.TestBase1;
 
-public class RegistrationNegativeTest extends TestBase1{
+public class RegistrationNegativeTest extends TestBase1 {
     @BeforeMethod
     public void ensurePrecondition() {
         new HomePage(driver).selectLanguage("British English");

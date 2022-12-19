@@ -73,9 +73,7 @@ public class LoginAndRegistrationPage extends BasePage {
         return this;
     }
 
-    public String registrationFailed() {
-        return getLoginOrRegister.getText();
-    }
+
 
 
     public String getWarningMessage() {
