@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="OscarLogin" verbose="1" >
+
+    <test name="Registration" >
+        <classes>
+            <class name="com.telran.oskarVer1.test.user.RegistrationTest">
+            </class>
+        </classes>
+    </test>
+</suite>

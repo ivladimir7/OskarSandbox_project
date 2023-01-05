@@ -31,8 +31,16 @@ public class BasketPage extends BasePage {
     WebElement quantityProduct;
 
     @FindBy(xpath = "//button[. = 'Update']")
-
     WebElement updateQuantity;
+
+    @FindBy(css = ".basket-items:nth-child(6) :nth-child(4)")
+    WebElement priceForOne;
+
+    @FindBy(css = ".basket-items:nth-child(6) :nth-child(5)")
+    WebElement priceForAFew;
+
+    @FindBy(css = ".total .price_color")
+    WebElement priceTotal;
 
 
     public String getBookFirst() {
@@ -65,5 +73,27 @@ public class BasketPage extends BasePage {
         quantityProduct.sendKeys("0");
         updateQuantity.click();
         return this;
+    }
+
+
+    public double getPriseForOne() {
+        double number1 = Double.parseDouble(priceForOne.getText().replace("£", ""));
+        return number1;
+    }
+
+    public BasketPage enterQuantity(String qt) {
+        type(quantityProduct,qt);
+        click(updateQuantity);
+        return  this;
+    }
+
+    public double getPriceForAFew() {
+        double number2 = Double.parseDouble(priceForAFew.getText().replace("£", ""));
+        return number2;
+    }
+
+    public double getPriceTotal() {
+        double number3 = Double.parseDouble(priceForAFew.getText().replace("£", ""));
+        return number3;
     }
 }

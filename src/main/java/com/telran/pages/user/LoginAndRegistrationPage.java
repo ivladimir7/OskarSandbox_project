@@ -2,6 +2,7 @@ package com.telran.pages.user;
 
 
 import com.telran.pages.BasePage;
+import com.telran.pages.product.HomePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -35,8 +36,12 @@ public class LoginAndRegistrationPage extends BasePage {
     @FindBy(id = "id_registration-password2")
     WebElement ConfirmPassword;
 
+    @FindBy(xpath = "//button[.='Register']")
+    WebElement regBtn;
+
     @FindBy(xpath = "//*[@value='Register']")
     WebElement RegisterSubmit;
+
 
     @FindBy(css = ".alert.alert-danger")
     WebElement getErrorMsg;
@@ -64,9 +69,19 @@ public class LoginAndRegistrationPage extends BasePage {
         clickWithAction(LoginSubmit);
         return this;
     }
+    public HomePage userRegistr(String email, String password, String confirmPassword) {
+        int i = (int) (System.currentTimeMillis()) / 10000;
+        type(RegEmail_address, i + email);
+        type(REGPassword, password);
+        type(ConfirmPassword, confirmPassword);
+        click(regBtn);
+        return new HomePage(driver);
+    }
+
 
     public LoginAndRegistrationPage register(String email, String password, String confirmPassword) {
-        type(RegEmail_address, email);
+        int i = (int) (System.currentTimeMillis()) / 10000;
+        type(RegEmail_address, i + email);
         type(REGPassword, password);
         type(ConfirmPassword, confirmPassword);
         click(RegisterSubmit);

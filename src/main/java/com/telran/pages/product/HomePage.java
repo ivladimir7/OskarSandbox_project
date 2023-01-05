@@ -1,5 +1,6 @@
 package com.telran.pages.product;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -29,6 +30,12 @@ public class HomePage extends BasePage {
     @FindBy(xpath = "//button[@type = 'submit']")
     WebElement goBtn;
 
+    @FindBy(id = "login_link")
+    WebElement loginLink;
+
+    @FindBy(id = "logout_link")
+    WebElement logOutLink;
+
     public HomePage selectLanguage(String text) {
         click(language);
         Select select = new Select(language);
@@ -37,16 +44,11 @@ public class HomePage extends BasePage {
         return this;
     }
 
-    @FindBy(id = "login_link")
-    WebElement loginLink;
 
     public LoginAndRegistrationPage clickOnLoginButton() {
         click(loginLink);
         return new LoginAndRegistrationPage(driver);
     }
-
-    @FindBy(id = "logout_link")
-    WebElement logOutLink;
 
 
     public HomePage verifyUserName() {
