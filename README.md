@@ -11,5 +11,5 @@ Compilation of a set of autotests for smoke testing of the first version of the 
 - [x] Product
 - [x] Basket
 
-## ![#0a192f](https://via.placeholder.com/10/0a192f?text=+) [Test Plan](https://docs.google.com/spreadsheets/d/1E53fUlBurmhZyhmSGJSuPg5L7KQCmIgu/edit#gid=543030468)
+## :briefcase: [Test Plan](https://docs.google.com/spreadsheets/d/1E53fUlBurmhZyhmSGJSuPg5L7KQCmIgu/edit#gid=543030468)
 
