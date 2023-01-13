@@ -1,0 +1,19 @@
+346  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase1.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] 175572077
+349  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase1.init()[pri:0, instance:null] -1957487255
+350  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+353  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+353  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+353  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+355  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase1.tearDown()[pri:0, instance:null] 396927645
+355  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase1.stopTest(org.testng.ITestResult)[pri:0, instance:null] -313026547
+355  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+356  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+356  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+356  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+358  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE HomepageTest.openHomePageTest()[pri:0, instance:com.telran.oskarLastVersion.tests.HomepageTest@73cf072e] -1277531215
+358  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+359  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+359  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+359  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+7873 [Test worker] INFO  c.t.o.tests.TestBase1 - Test start openHomePageTest with data: []
+16414 [Test worker] INFO  c.t.o.tests.TestBase1 - PASSED: test method openHomePageTest

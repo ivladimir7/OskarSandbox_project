@@ -1,0 +1,17 @@
+364  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase1.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] 175572077
+368  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase1.init()[pri:0, instance:null] -1957487255
+369  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+374  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+374  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+374  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+377  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase1.tearDown()[pri:0, instance:null] 396927645
+377  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase1.stopTest(org.testng.ITestResult)[pri:0, instance:null] -313026547
+377  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+377  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+377  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+377  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+381  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE CheckBasketViewTest.proceedToCheckoutBtnForNonLoggedUserTest()[pri:0, instance:com.telran.oskarLastVersion.tests.basket.CheckBasketViewTest@73cf072e] -905390034
+381  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+381  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+381  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+381  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES

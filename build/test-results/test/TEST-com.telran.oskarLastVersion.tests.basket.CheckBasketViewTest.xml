@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.oskarLastVersion.tests.basket.CheckBasketViewTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-01-13T14:31:56" hostname="iMac-ipaparazzi" time="3.992">
+  <properties/>
+  <testcase name="proceedToCheckoutBtnForNonLoggedUserTest" classname="com.telran.oskarLastVersion.tests.basket.CheckBasketViewTest" time="3.992"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 109.0.5414.74 (e7c5703604daa9cc128ccf5a5d3e993513758913-refs/branch-heads/5414@{#1172}) on port 25390
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+янв. 13, 2023 3:31:37 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

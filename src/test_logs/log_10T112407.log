@@ -1,0 +1,15 @@
+878  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase1.init()[pri:0, instance:null] -1957487255
+881  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+888  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+888  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+889  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+891  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase1.tearDown()[pri:0, instance:null] 396927645
+891  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+891  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+891  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+891  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+899  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE HomepageTest.openHomePageTest()[pri:0, instance:com.telran.oskarLastVersion.tests.HomepageTest@405de070] -2140584717
+899  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+899  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+899  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+899  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES

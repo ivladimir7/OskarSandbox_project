@@ -1,0 +1,32 @@
+400  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase1.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] 175572077
+403  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase1.init()[pri:0, instance:null] -1957487255
+403  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE RegistrationPositiveTest.ensurePrecondition()[pri:0, instance:null] -1004854364
+404  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR RegistrationPositiveTest.ensurePrecondition()[pri:0, instance:null] ==> TestBase1.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null]
+404  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED TestBase1.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+404  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR RegistrationPositiveTest.ensurePrecondition()[pri:0, instance:null] ==> TestBase1.init()[pri:0, instance:null]
+404  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED TestBase1.init()[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+404  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+407  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR RegistrationPositiveTest.ensurePrecondition()[pri:0, instance:null] ==> TestBase1.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null]
+407  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR RegistrationPositiveTest.ensurePrecondition()[pri:0, instance:null] ==> TestBase1.init()[pri:0, instance:null]
+409  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED PRED TestBase1.init()[pri:0, instance:null] FROM NODE RegistrationPositiveTest.ensurePrecondition()[pri:0, instance:null]
+409  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED PRED TestBase1.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] FROM NODE RegistrationPositiveTest.ensurePrecondition()[pri:0, instance:null]
+409  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+409  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+409  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               TestBase1.init()[pri:0, instance:null]
+409  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               TestBase1.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null]
+410  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               RegistrationPositiveTest.ensurePrecondition()[pri:0, instance:null]
+410  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+411  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase1.tearDown()[pri:0, instance:null] 396927645
+412  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase1.stopTest(org.testng.ITestResult)[pri:0, instance:null] -313026547
+412  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+412  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+412  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+412  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+414  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE RegistrationPositiveTest.registerPositiveTest()[pri:0, instance:com.telran.oskarLastVersion.tests.User.RegistrationPositiveTest@dd8836e] -1240862734
+414  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE RegistrationPositiveTest.RegistrationPositiveTestWithDataProvider(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.telran.oskarLastVersion.tests.User.RegistrationPositiveTest@dd8836e] 2006155801
+415  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+415  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+415  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+415  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+5887 [Test worker] INFO  c.t.o.tests.TestBase1 - Test start registerPositiveTest with data: []
+9146 [Test worker] INFO  c.t.o.tests.TestBase1 - PASSED: test method registerPositiveTest

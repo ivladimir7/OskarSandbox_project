@@ -1,0 +1,31 @@
+585  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE OrderTest.ensurePrecondition()[pri:0, instance:null] -1170376328
+589  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR OrderTest.ensurePrecondition()[pri:0, instance:null] ==> TestBase.startTest()[pri:0, instance:null]
+589  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED TestBase.startTest()[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+589  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR OrderTest.ensurePrecondition()[pri:0, instance:null] ==> TestBase.init()[pri:0, instance:null]
+589  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED TestBase.init()[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+589  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.startTest()[pri:0, instance:null] 1450208109
+590  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.init()[pri:0, instance:null] -682331543
+590  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+594  [ForkJoinPool.commonPool-worker-5] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR OrderTest.ensurePrecondition()[pri:0, instance:null] ==> TestBase.startTest()[pri:0, instance:null]
+594  [ForkJoinPool.commonPool-worker-5] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR OrderTest.ensurePrecondition()[pri:0, instance:null] ==> TestBase.init()[pri:0, instance:null]
+596  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED PRED TestBase.init()[pri:0, instance:null] FROM NODE OrderTest.ensurePrecondition()[pri:0, instance:null]
+596  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED PRED TestBase.startTest()[pri:0, instance:null] FROM NODE OrderTest.ensurePrecondition()[pri:0, instance:null]
+596  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+596  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+596  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               TestBase.init()[pri:0, instance:null]
+596  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               TestBase.startTest()[pri:0, instance:null]
+596  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               OrderTest.ensurePrecondition()[pri:0, instance:null]
+596  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+598  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.tearDown()[pri:0, instance:null] 1269812637
+598  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase.stopTest()[pri:0, instance:null] -1320093427
+598  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+599  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+599  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+599  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+602  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE OrderTest.addTheProduct()[pri:0, instance:com.telran.oskarVer1.test.basket.OrderTest@5e43b3e7] 1403634392
+602  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+603  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+603  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+603  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+10061 [Test worker] INFO  com.telran.oskarVer1.test.TestBase - Test start
+26471 [Test worker] INFO  com.telran.oskarVer1.test.TestBase - Test start

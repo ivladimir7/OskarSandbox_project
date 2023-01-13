@@ -3,6 +3,8 @@ package com.telran.oskarVer1.test;
 import com.telran.pages.product.HomePage;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
@@ -12,6 +14,8 @@ public class TestBase {
 
     public WebDriver driver;
 
+
+    Logger logger = LoggerFactory.getLogger(TestBase.class);
 
     @BeforeMethod
     public void init() {
@@ -26,5 +30,15 @@ public class TestBase {
     @AfterMethod(enabled = true)
     public void tearDown() {
         driver.quit();
+    }
+
+    @BeforeMethod
+    public void startTest() {
+        logger.info("Test start");
+    }
+
+    @AfterMethod
+    public void stopTest() {
+        logger.info("Test start");
     }
 }

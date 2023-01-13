@@ -6,6 +6,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 import com.telran.pages.BasePage;
 
+
 public class ShippingAddressPage extends BasePage {
     public ShippingAddressPage(WebDriver driver) {
         super(driver);
@@ -35,6 +36,9 @@ public class ShippingAddressPage extends BasePage {
     @FindBy(xpath = "//*[.='Continue']")
     WebElement continueButton;
 
+    @FindBy(tagName = "h1")
+    WebElement pageTitle;
+
     public ShippingAddressPage NewAddressFormField(String firstName, String lastName,
                                                    String address, String city, String zipCode) {
         type(firstNameField, firstName);
@@ -59,6 +63,10 @@ public class ShippingAddressPage extends BasePage {
 
         clickWithJSExecutor(continueButton, 500, 0);
         return this;
+    }
+
+    public String getPageTitle() {
+        return pageTitle.getText();
     }
 }
 

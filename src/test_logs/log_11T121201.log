@@ -1,0 +1,45 @@
+372  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE AddressBookPositiveTest.ensurePrecondition()[pri:0, instance:null] 2111353262
+377  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR AddressBookPositiveTest.ensurePrecondition()[pri:0, instance:null] ==> TestBase1.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null]
+377  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED TestBase1.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+377  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR AddressBookPositiveTest.ensurePrecondition()[pri:0, instance:null] ==> TestBase1.init()[pri:0, instance:null]
+378  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED TestBase1.init()[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+378  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase1.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] 175572077
+378  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase1.init()[pri:0, instance:null] -1957487255
+378  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+381  [ForkJoinPool.commonPool-worker-3] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR AddressBookPositiveTest.ensurePrecondition()[pri:0, instance:null] ==> TestBase1.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null]
+382  [ForkJoinPool.commonPool-worker-3] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR AddressBookPositiveTest.ensurePrecondition()[pri:0, instance:null] ==> TestBase1.init()[pri:0, instance:null]
+383  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED PRED TestBase1.init()[pri:0, instance:null] FROM NODE AddressBookPositiveTest.ensurePrecondition()[pri:0, instance:null]
+383  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED PRED TestBase1.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] FROM NODE AddressBookPositiveTest.ensurePrecondition()[pri:0, instance:null]
+383  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+383  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+384  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               TestBase1.init()[pri:0, instance:null]
+384  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               TestBase1.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null]
+384  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               AddressBookPositiveTest.ensurePrecondition()[pri:0, instance:null]
+384  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+386  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE AddressBookPositiveTest.logOut()[pri:0, instance:null] -293426702
+386  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase1.tearDown()[pri:0, instance:null] 396927645
+386  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR TestBase1.tearDown()[pri:0, instance:null] ==> AddressBookPositiveTest.logOut()[pri:0, instance:null]
+386  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED AddressBookPositiveTest.logOut()[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+386  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase1.stopTest(org.testng.ITestResult)[pri:0, instance:null] -313026547
+387  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR TestBase1.stopTest(org.testng.ITestResult)[pri:0, instance:null] ==> AddressBookPositiveTest.logOut()[pri:0, instance:null]
+387  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED AddressBookPositiveTest.logOut()[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+387  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+387  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR TestBase1.tearDown()[pri:0, instance:null] ==> AddressBookPositiveTest.logOut()[pri:0, instance:null]
+387  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR TestBase1.stopTest(org.testng.ITestResult)[pri:0, instance:null] ==> AddressBookPositiveTest.logOut()[pri:0, instance:null]
+387  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED PRED AddressBookPositiveTest.logOut()[pri:0, instance:null] FROM NODE TestBase1.stopTest(org.testng.ITestResult)[pri:0, instance:null]
+387  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED PRED AddressBookPositiveTest.logOut()[pri:0, instance:null] FROM NODE TestBase1.tearDown()[pri:0, instance:null]
+387  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+387  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+387  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               AddressBookPositiveTest.logOut()[pri:0, instance:null]
+387  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               TestBase1.stopTest(org.testng.ITestResult)[pri:0, instance:null]
+387  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               TestBase1.tearDown()[pri:0, instance:null]
+387  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+390  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE AddressBookPositiveTest.editAddressPositiveTest()[pri:0, instance:com.telran.oskarLastVersion.tests.User.AddressBookPositiveTest@dd8836e] -1982744765
+390  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE AddressBookPositiveTest.addNewAddressPositiveTest()[pri:0, instance:com.telran.oskarLastVersion.tests.User.AddressBookPositiveTest@dd8836e] 182037014
+390  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+391  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+391  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+391  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+5601 [Test worker] INFO  c.t.o.tests.TestBase1 - Test start addNewAddressPositiveTest with data: []
+11664 [Test worker] INFO  c.t.o.tests.TestBase1 - PASSED: test method addNewAddressPositiveTest
+16588 [Test worker] INFO  c.t.o.tests.TestBase1 - Test start editAddressPositiveTest with data: []

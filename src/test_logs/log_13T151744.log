@@ -1,0 +1,29 @@
+597  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE CheckBasketViewTest.ensurePrecondition()[pri:0, instance:null] -814303322
+603  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR CheckBasketViewTest.ensurePrecondition()[pri:0, instance:null] ==> TestBase1.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null]
+603  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED TestBase1.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+603  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR CheckBasketViewTest.ensurePrecondition()[pri:0, instance:null] ==> TestBase1.init()[pri:0, instance:null]
+604  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED TestBase1.init()[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+604  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase1.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] 175572077
+604  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase1.init()[pri:0, instance:null] -1957487255
+604  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+616  [ForkJoinPool.commonPool-worker-3] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR CheckBasketViewTest.ensurePrecondition()[pri:0, instance:null] ==> TestBase1.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null]
+616  [ForkJoinPool.commonPool-worker-3] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR CheckBasketViewTest.ensurePrecondition()[pri:0, instance:null] ==> TestBase1.init()[pri:0, instance:null]
+618  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED PRED TestBase1.init()[pri:0, instance:null] FROM NODE CheckBasketViewTest.ensurePrecondition()[pri:0, instance:null]
+618  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED PRED TestBase1.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] FROM NODE CheckBasketViewTest.ensurePrecondition()[pri:0, instance:null]
+618  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+618  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+618  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               TestBase1.init()[pri:0, instance:null]
+618  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               TestBase1.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null]
+618  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               CheckBasketViewTest.ensurePrecondition()[pri:0, instance:null]
+618  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+620  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase1.tearDown()[pri:0, instance:null] 396927645
+621  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase1.stopTest(org.testng.ITestResult)[pri:0, instance:null] -313026547
+621  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+621  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+621  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+621  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+626  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE CheckBasketViewTest.proceedToCheckoutBtnForNonLoggedUserTest()[pri:0, instance:com.telran.oskarLastVersion.tests.basket.CheckBasketViewTest@79fa2431] -801901263
+626  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+626  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+627  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+627  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES

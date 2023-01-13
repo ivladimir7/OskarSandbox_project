@@ -1,0 +1,51 @@
+326  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE CatalogBooksTests.ensurePrecondition()[pri:0, instance:null] -1271215926
+330  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR CatalogBooksTests.ensurePrecondition()[pri:0, instance:null] ==> TestBase1.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null]
+330  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED TestBase1.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+330  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR CatalogBooksTests.ensurePrecondition()[pri:0, instance:null] ==> TestBase1.init()[pri:0, instance:null]
+330  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED TestBase1.init()[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+330  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase1.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] 175572077
+330  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase1.init()[pri:0, instance:null] -1957487255
+331  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+340  [ForkJoinPool.commonPool-worker-3] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR CatalogBooksTests.ensurePrecondition()[pri:0, instance:null] ==> TestBase1.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null]
+341  [ForkJoinPool.commonPool-worker-3] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR CatalogBooksTests.ensurePrecondition()[pri:0, instance:null] ==> TestBase1.init()[pri:0, instance:null]
+342  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED PRED TestBase1.init()[pri:0, instance:null] FROM NODE CatalogBooksTests.ensurePrecondition()[pri:0, instance:null]
+342  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED PRED TestBase1.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null] FROM NODE CatalogBooksTests.ensurePrecondition()[pri:0, instance:null]
+342  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+342  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+342  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               TestBase1.init()[pri:0, instance:null]
+342  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               TestBase1.startTest(java.lang.reflect.Method,[Ljava.lang.Object;)[pri:0, instance:null]
+342  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               CatalogBooksTests.ensurePrecondition()[pri:0, instance:null]
+343  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+344  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase1.tearDown()[pri:0, instance:null] 396927645
+344  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR TestBase1.tearDown()[pri:0, instance:null] ==> CatalogBooksTests.logOut()[pri:0, instance:null]
+345  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED CatalogBooksTests.logOut()[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+345  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE CatalogBooksTests.logOut()[pri:0, instance:null] 660656406
+345  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE TestBase1.stopTest(org.testng.ITestResult)[pri:0, instance:null] -313026547
+345  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR TestBase1.stopTest(org.testng.ITestResult)[pri:0, instance:null] ==> CatalogBooksTests.logOut()[pri:0, instance:null]
+345  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED CatalogBooksTests.logOut()[pri:0, instance:null] FROM INDEPENDENT OBJECTS
+345  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+345  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR TestBase1.stopTest(org.testng.ITestResult)[pri:0, instance:null] ==> CatalogBooksTests.logOut()[pri:0, instance:null]
+345  [ForkJoinPool.commonPool-worker-5] DEBUG org.testng.internal.Graph - [Graph]   ADDING PREDECESSOR FOR TestBase1.tearDown()[pri:0, instance:null] ==> CatalogBooksTests.logOut()[pri:0, instance:null]
+345  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED PRED CatalogBooksTests.logOut()[pri:0, instance:null] FROM NODE TestBase1.stopTest(org.testng.ITestResult)[pri:0, instance:null]
+345  [Test worker] DEBUG org.testng.internal.Graph - [Graph]   REMOVED PRED CatalogBooksTests.logOut()[pri:0, instance:null] FROM NODE TestBase1.tearDown()[pri:0, instance:null]
+345  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+346  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+346  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               CatalogBooksTests.logOut()[pri:0, instance:null]
+346  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               TestBase1.stopTest(org.testng.ITestResult)[pri:0, instance:null]
+346  [Test worker] DEBUG org.testng.internal.Graph - [Graph]               TestBase1.tearDown()[pri:0, instance:null]
+346  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+348  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE CatalogBooksTests.UserRecentlyViewedPresentTest()[pri:0, instance:com.telran.oskarLastVersion.tests.product.CatalogBooksTests@2123b2e8] 1669833534
+349  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE CatalogBooksTests.UPSPresentTest()[pri:0, instance:com.telran.oskarLastVersion.tests.product.CatalogBooksTests@2123b2e8] -1812159103
+349  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE CatalogBooksTests.ProductInformationPresentTest()[pri:0, instance:com.telran.oskarLastVersion.tests.product.CatalogBooksTests@2123b2e8] -9140996
+349  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE CatalogBooksTests.ReviewTest()[pri:0, instance:com.telran.oskarLastVersion.tests.product.CatalogBooksTests@2123b2e8] 204931026
+349  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE CatalogBooksTests.PrisePresentTest()[pri:0, instance:com.telran.oskarLastVersion.tests.product.CatalogBooksTests@2123b2e8] -1171178176
+349  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE CatalogBooksTests.AvailabilityPresentTest()[pri:0, instance:com.telran.oskarLastVersion.tests.product.CatalogBooksTests@2123b2e8] -293867110
+349  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE CatalogBooksTests.TitlePresentTest()[pri:0, instance:com.telran.oskarLastVersion.tests.product.CatalogBooksTests@2123b2e8] 978920609
+349  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE CatalogBooksTests.DescriptionPresentTest()[pri:0, instance:com.telran.oskarLastVersion.tests.product.CatalogBooksTests@2123b2e8] -2002659267
+349  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE CatalogBooksTests.PhotoPresentTest()[pri:0, instance:com.telran.oskarLastVersion.tests.product.CatalogBooksTests@2123b2e8] 1104631683
+349  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ADDING NODE CatalogBooksTests.ProductTypePresentTest()[pri:0, instance:com.telran.oskarLastVersion.tests.product.CatalogBooksTests@2123b2e8] -848793680
+349  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ================ SORTING
+350  [Test worker] DEBUG org.testng.internal.Graph - [Graph] =============== DONE SORTING
+350  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== SORTED NODES
+350  [Test worker] DEBUG org.testng.internal.Graph - [Graph] ====== END SORTED NODES
+5481 [Test worker] INFO  c.t.o.tests.TestBase1 - Test start AvailabilityPresentTest with data: []

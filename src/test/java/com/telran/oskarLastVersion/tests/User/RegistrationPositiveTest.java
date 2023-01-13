@@ -29,7 +29,6 @@ public class RegistrationPositiveTest extends TestBase1 {
         new LoginAndRegistrationPage(driver).register(email, password, confirmPassword);
         new HomePage(driver).clickOnMyAccount();
         new AccountPage(driver).verifyUserName(UserData.EMAIL).deleteRegisterUser(UserData.REG_Password);
-        ;
 
     }
 }
