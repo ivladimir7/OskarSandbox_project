@@ -31,7 +31,7 @@ Also within the framework of the project were used:
 + Going ahead, install Gradle
 
 
-Automated testing is implemented by:
+## Automated testing is implemented by:
 | Functional testing   | implemented using| 
 | -------------        |:-------------:| 
 |  POM                 | Selenium, Gradle | 
