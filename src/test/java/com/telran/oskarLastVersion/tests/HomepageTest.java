@@ -11,6 +11,5 @@ public class HomepageTest extends TestBase1{
             new BasePage(driver).takeScreenshotWithScrollDown();
 
         }
-
-    }
+}
 
