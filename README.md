@@ -24,7 +24,7 @@ Also within the framework of the project were used:
  + Next, we use the project startup script
    + :arrow_right: for Windows  :left_right_arrow: gradlew.bat
    + :arrow_right: for MacOS/Linux  :left_right_arrow: gradlew
-+ Press :heavy_plus_sign:,  
++ Press :heavy_plus_sign: : 
   +  select Gradle,specify 
   +  build configuration,
   +  accept and run the project
