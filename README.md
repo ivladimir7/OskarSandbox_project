@@ -1,5 +1,5 @@
 # Automated Gradle Java Project for an online bookstore [Oscar Sandbox](https://latest.oscarcommerce.com/en-gb/catalogue/)
-## Project created at school Students TelranTitle
+## Project created at school Students Telran
 
 ## Purpose of the project
 To automate testing of an online bookstore.
