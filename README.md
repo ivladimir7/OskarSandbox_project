@@ -1,11 +1,11 @@
-# Automated Gradle Java Project for an online bookstore [Oscar Sandbox](https://latest.oscarcommerce.com/en-gb/catalogue/)
-## The Automated Test was created as part of a school Project Telran
+# Automated Gradle Java project for an online bookstore [Oscar Sandbox](https://latest.oscarcommerce.com/en-gb/catalogue/)
+## The automated test was created as part of a school project Telran
 
 ## Purpose of the project
 To automate testing of an online bookstore.
 Compilation of a set of autotests for smoke testing of the first version of the site. Identification of bugs and compilation of a set of autotests, checking the later version for elimination of bugs, compilation of regression tests
 
-## The Four Body of Project
+## The four body of project
 - [x] Home Page
 - [x] User
 - [x] Product
