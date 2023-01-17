@@ -22,8 +22,8 @@ Also within the framework of the project were used:
   + clone from the repository with Git: + git clone  [GIT](https://github.com/ivladimir7/Oskar.git)
   + Open IntelliJ IDEA → Get from version → Clone
  + Next, we use the project startup script
-   + :arrow_right:for Windows  :arrow_right:gradlew.bat
-   + :arrow_right:for MacOS/Linux  :arrow_right: gradlew
+   + :arrow_right: for Windows  :left_right_arrow: gradlew.bat
+   + :arrow_right: for MacOS/Linux  :left_right_arrow: gradlew
 + Press :heavy_plus_sign:,  
   +  select Gradle,specify 
   +  build configuration,
