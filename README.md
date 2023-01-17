@@ -39,7 +39,7 @@ Also within the framework of the project were used:
 | Loading lots of data from files            | Data Provider     |  
 | Generating reports       | MyListner  |  
 | Report a failed test     |  Screenshot with scroll down  | 
-|Autotests are run on the server | Jenkins |
+|Autotests, run on the server | Jenkins |
 
 
 
