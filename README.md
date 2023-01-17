@@ -12,6 +12,10 @@ Compilation of a set of autotests for smoke testing of the first version of the 
 - [x] Basket
 
 ## [Test Plan](https://docs.google.com/spreadsheets/d/1E53fUlBurmhZyhmSGJSuPg5L7KQCmIgu/edit#gid=543030468)
+Also within the framework of the project were used:
++ ## Minimap
++ ## Test-suites and Test-case in the TestLink
++ ## Bugs in detail in the Jira software.
 
 ## Instalation
 + To run the project, do the following:
