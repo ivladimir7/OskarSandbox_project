@@ -13,9 +13,9 @@ Compilation of a set of autotests for smoke testing of the first version of the 
 
 ## [Test Plan](https://docs.google.com/spreadsheets/d/1E53fUlBurmhZyhmSGJSuPg5L7KQCmIgu/edit#gid=543030468)
 Also within the framework of the project were used:
-+ ## ([MIND MAP](https://github.com/ivladimir7/Oskar/blob/main/Images/mindMap.jpeg))
-+ ## Test-suites and Test-case in the TestLink
-+ ## Bugs in detail in the Jira software.
++ ## [MIND MAP](https://github.com/ivladimir7/Oskar/blob/main/Images/mindMap.jpeg)
++ ## [Test-suites and Test-case in the TestLink](https://github.com/ivladimir7/Oskar/blob/main/Images/TestLink.png)
++ ## [Bugs in detail in the Jira software](https://github.com/ivladimir7/Oskar/blob/main/Images/BUG%20Voucher.png)
 
 ## Instalation
 + To run the project, do the following:
