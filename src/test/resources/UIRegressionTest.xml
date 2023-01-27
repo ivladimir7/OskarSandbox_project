@@ -1,0 +1,23 @@
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="OscarSandbox" verbose="1" >
+
+    <test name="Regression testing" >
+        <classes>
+            <class name="com.telran.oscarLastVersion.tests.product.CatalogBooksTests">
+                <methods>
+                    <include name=".*UI.*"></include>
+                </methods>
+            </class>
+
+            <class name="com.telran.oscarLastVersion.tests.product.SidePanelTest">
+                <methods>
+                    <include name=".*UI.*"></include>
+                </methods>
+            </class>
+
+        </classes>
+
+    </test>
+</suite>

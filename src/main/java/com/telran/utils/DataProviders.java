@@ -12,7 +12,7 @@ public class DataProviders {
     @DataProvider
     public Iterator<Object[]> registeredNewUserFromCSV() throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(DataProviders.class
-                .getResourceAsStream("/data_reg.csv")));
+                .getResourceAsStream("/Data/data_reg.csv")));
 
         List<Object[]> userData = new ArrayList<Object[]>();
         String line = reader.readLine();
@@ -29,7 +29,7 @@ public class DataProviders {
     @DataProvider
     public Iterator<Object[]> registeredNewUserWIthInvalidPasswordFromCSV() throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(DataProviders.class
-                .getResourceAsStream("/Data_negativePassword.csv")));
+                .getResourceAsStream("/Data/Data_negativePassword.csv")));
 
         List<Object[]> userData = new ArrayList<Object[]>();
         String line = reader.readLine();

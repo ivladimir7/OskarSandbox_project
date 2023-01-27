@@ -1,0 +1,30 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="OscarSandbox" verbose="1">
+    <test name="UserPositive">
+        <classes>
+            <class name="com.telran.oskarLastVersion.tests.user.RegistrationPositiveTest">
+                <methods>
+                    <exclude name=".*Negative.*"></exclude>
+                    <exclude name=".*WithCsv.*"></exclude>
+                </methods>
+            </class>
+
+            <class name="com.telran.oskarLastVersion.tests.user.LoginTest">
+                <methods>
+                    <exclude name=".*Negative.*"></exclude>
+                    <exclude name=".*WithCsv.*"></exclude>
+                </methods>
+            </class>
+
+
+            <class name="com.telran.oskarLastVersion.tests.user.AddressBookPositiveTest">
+                <methods>
+                    <exclude name=".*Negative.*"></exclude>
+                    <exclude name=".*WithCsv.*"></exclude>
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
