@@ -34,7 +34,7 @@ Also within the framework of the project were used:
 ## Automated testing is implemented by:
 | Functional testing   | implemented using| 
 | -------------        |:-------------:| 
-|  POM                 | Selenium, Gradle | 
+|  POM                 | Java 11, Selenium 3.141, Gradle | 
 | Pattern               | Regex,Parameterized assembly|
 | Loading lots of data from files            | Data Provider     |  
 | Generating reports       | MyListner  |  
