@@ -55,10 +55,10 @@ public class CatalogBooksPage extends BasePage {
     @FindBy(id = "id_Email")
     WebElement EmailReview;
 
-    @FindBy(css = ".Three > .fas:nth-child(4)")
+    @FindBy(xpath = "//div[@class ='star-rating ']//i[4]")
     WebElement Score;
 
-    @FindBy(css = ".btn:nth-child(8)")
+    @FindBy(xpath = "//button[@class = 'btn btn-primary btn-lg']")
     WebElement SaveBtn;
 
 
@@ -107,16 +107,16 @@ public class CatalogBooksPage extends BasePage {
         click(permalink);
     }
 
-    public void fieldReview(String titleReview, String bodyReview,
-                            String nameReview, String email) {
+    public CatalogBooksPage writeNewReview(String titleReview, String bodyReview) {
+        click(writeReviewBtn);
         type(TitleReview, titleReview);
+        clickWithAction(Score);
         type(BodyReview, bodyReview);
-        type(NameReview, nameReview);
-        type(EmailReview, email);
-        clickWithJSExecutor(Score, 0, 300);
+        click(SaveBtn);
+        return this;
     }
 
-    public void ClickOnSaveBtn() {
-        click(SaveBtn);
+    public boolean isSaveBtnDisplayed() {
+        return SaveBtn.isDisplayed();
     }
 }

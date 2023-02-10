@@ -16,7 +16,7 @@ public class OrderTests extends TestBase1 {
     @BeforeMethod
     public void ensurePrecondition() {
         new HomePage(driver).clickOnLoginButton();
-        new LoginAndRegistrationPage(driver).login(UserData.EMAIL,UserData.PASSWORDNewACC);;
+        new LoginAndRegistrationPage(driver).registerTestUser(UserData.EmailLogin,UserData.PasswordLogin);
 
     }
     @Test

@@ -5,6 +5,7 @@ import com.telran.oscarLastVersion.tests.TestBase1;
 import com.telran.pages.basket.BasketPage;
 import com.telran.pages.product.AllProductPage;
 import com.telran.pages.product.HomePage;
+import com.telran.pages.user.AccountPage;
 import com.telran.pages.user.LoginAndRegistrationPage;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -15,7 +16,7 @@ public class AllProductsPageTests extends TestBase1 {
     @BeforeMethod
     public void ensurePrecondition() {
         new HomePage(driver).clickOnLoginButton();
-        new LoginAndRegistrationPage(driver).login(UserData.EMAIL, UserData.PASSWORDNewACC);
+        new LoginAndRegistrationPage(driver).registerTestUser(UserData.EmailLogin,UserData.PasswordLogin);
     }
 
     @Test
@@ -34,7 +35,9 @@ public class AllProductsPageTests extends TestBase1 {
         new BasketPage(driver).removeBook();
     }
 
-    @AfterMethod
-    public void logOut() {
-        new HomePage(driver).logOut(); }
+    @AfterMethod(enabled = true)
+    public void TierDown() {
+        new HomePage(driver).clickOnMyAccountLastVe();
+        new AccountPage(driver).deleteRegisterUser(UserData.PasswordLogin);
     }
+}

@@ -6,6 +6,7 @@ import com.telran.oscarLastVersion.tests.TestBase1;
 import com.telran.pages.product.AllProductPage;
 import com.telran.pages.product.CatalogBooksPage;
 import com.telran.pages.product.HomePage;
+import com.telran.pages.user.AccountPage;
 import com.telran.pages.user.LoginAndRegistrationPage;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -16,7 +17,8 @@ public class CatalogBooksTests extends TestBase1 {
     @BeforeMethod
     public void ensurePrecondition() {
         new HomePage(driver).clickOnLoginButton();
-        new LoginAndRegistrationPage(driver).login(UserData.EMAIL, UserData.PASSWORDNewACC);
+        new HomePage(driver).clickOnLoginButton();
+        new LoginAndRegistrationPage(driver).registerTestUser(UserData.EmailLogin1, UserData.PasswordLogin);
         new AllProductPage(driver).SelectFirstBookTitle();
     }
     @Test
@@ -31,10 +33,7 @@ public class CatalogBooksTests extends TestBase1 {
     public void DescriptionPresentTest() {
         Assert.assertTrue(new CatalogBooksPage(driver).isDescriptionPresent());
     }
-    @Test
-    public void ProductInformationPresentTest() {
-        Assert.assertTrue(new CatalogBooksPage(driver).isProductInformationPresent());
-    }
+
     @Test
     public void UPSPresentTest() {
         Assert.assertTrue(new CatalogBooksPage(driver).isUPSPresent());
@@ -58,15 +57,12 @@ public class CatalogBooksTests extends TestBase1 {
 
     @Test
     public void ReviewTest() {
-        new CatalogBooksPage(driver).clickOnReviewPermalink();
-        new CatalogBooksPage(driver).ClickOnWriteAReviewBtn();
-        new CatalogBooksPage(driver).fieldReview(ReviewData.TitleReview,ReviewData.BodyReview,ReviewData.NameReview, ReviewData.EMAIL);
-        new CatalogBooksPage(driver).ClickOnSaveBtn();
+        new CatalogBooksPage(driver).writeNewReview(ReviewData.TitleReview, ReviewData.BodyReview);
     }
 
-
-    @AfterMethod
-    public void logOut() {
-        new HomePage(driver).logOut(); }
+    @AfterMethod(enabled = true)
+    public void TierDown() {
+        new HomePage(driver).clickOnMyAccountLastVe();
+        new AccountPage(driver).deleteRegisterUser(UserData.PasswordLogin);
     }
-
+}

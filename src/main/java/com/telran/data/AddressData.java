@@ -11,5 +11,10 @@ public class AddressData {
     public static final String FIRST_LINE_OF_ADDRESS1 = "New Str.7";
     public static final String CITY1 = "Reutlingen";
     public static final String ZIP_CODE1 = "72760";
+    public static final String FIRST_NAME2 = "Adam";
+    public static final String LAST_NAME2 = "Noi";
+    public static final String FIRST_LINE_OF_ADDRESS2 = "Stuttgarter STR.9";
+    public static final String CITY2 = "Metzingen";
+    public static final String ZIP_CODE2 = "72555";
 }
 

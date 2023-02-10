@@ -86,8 +86,13 @@ public class LoginAndRegistrationPage extends BasePage {
         click(RegisterSubmit);
         return this;
     }
-
-
+    public LoginAndRegistrationPage registerTestUser(String email, String password) {
+        type(RegEmail_address, email);
+        type(REGPassword, password);
+        type(ConfirmPassword, password);
+        click(RegisterSubmit);
+        return this;
+    }
 
 
     public String getWarningMessage() {

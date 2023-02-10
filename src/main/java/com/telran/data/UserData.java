@@ -13,6 +13,10 @@ public class UserData {
     public static final String EMAIL1 = "test777@gmx.com";
     public static final String REG_INVPassword = "Test1234";
     public static final String REG_INVPassword_Confirm = "Test1234";
+    public static final String EmailLogin = "test666@gmx.com";
+    public static final String EmailLogin1 = "test999@gmx.com";
+    public static final String EmailLogin2 = "test900@gmx.com";
+    public static final String PasswordLogin = "TestForTest1";
 
 
 }

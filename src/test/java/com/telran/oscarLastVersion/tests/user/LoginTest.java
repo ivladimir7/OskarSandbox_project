@@ -30,5 +30,3 @@ public class LoginTest extends TestBase1 {
     public void logOut() {
         new HomePage(driver).logOut(); }
 }
-
-

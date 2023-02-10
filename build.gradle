@@ -26,3 +26,45 @@ dependencies {
 test {
     useTestNG()
 }
+
+task testngSmoky(type:Test) {
+    useTestNG(){
+        suites 'src/test/resources/testngSmoky.xml'
+    }
+}
+
+task testngUIRegression(type:Test) {
+    useTestNG(){
+        suites 'src/test/resources/testngUiRegression.xml'
+    }
+}
+
+task testngUserP(type:Test) {
+    useTestNG(){
+        suites 'src/test/resources/testngUserPositive.xml'
+    }
+}
+task testngUserN(type:Test) {
+    useTestNG(){
+        suites 'src/test/resources/testngUserNegative.xml'
+    }
+}
+
+task testngProduct(type:Test) {
+    useTestNG(){
+        suites 'src/test/resources/testngProduct.xml'
+    }
+}
+
+task testngOrder(type:Test) {
+    useTestNG(){
+        suites 'src/test/resources/testngOrder.xml'
+    }
+}
+
+task testngBasket(type:Test) {
+    useTestNG(){
+        suites 'src/test/resources/testngBasket.xml'
+    }
+}
+

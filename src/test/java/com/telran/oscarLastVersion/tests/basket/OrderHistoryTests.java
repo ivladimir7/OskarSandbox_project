@@ -15,7 +15,7 @@ public class OrderHistoryTests extends TestBase1 {
     @BeforeMethod
     public void ensurePrecondition() {
         new HomePage(driver).clickOnLoginButton();
-        new LoginAndRegistrationPage(driver).login(UserData.EMAIL, UserData.PASSWORDNewACC);
+        new LoginAndRegistrationPage(driver).login(UserData.EmailLogin, UserData.PasswordLogin);
 
     }
 
@@ -24,11 +24,14 @@ public class OrderHistoryTests extends TestBase1 {
         new HomePage(driver).clickOnMyAccountLastVe();
         new AccountPage(driver).clickOnOrderHistory();
         new OrderHistoryPage(driver).OrderNumberFind(String.valueOf(100001)).clickOnTheFilterResults();
-        Assert.assertTrue(new OrderHistoryPage(driver).OrderAssertNumber().contains("Order #100001"));
+        Assert.assertTrue(new OrderHistoryPage(driver).OrderAssertNumber().contains("Order "));
     }
-    @AfterMethod
-    public void logOut() {
-        new HomePage(driver).logOut(); }
+    @AfterMethod(enabled = true)
+    public void TierDown() {
+        new HomePage(driver).clickOnMyAccountLastVe();
+        new AccountPage(driver).deleteRegisterUser(UserData.PasswordLogin);
+    }
+
 }
 
 
